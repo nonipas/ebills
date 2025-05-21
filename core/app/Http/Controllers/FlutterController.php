@@ -17,7 +17,7 @@ use Validator;
     
 class FlutterController{
 
-    private $token = "FLWSECK-8213efe87ecda0d70e51856d8179680c-X";
+    private $token = "";
 
     public function __construct(){
         
@@ -402,7 +402,7 @@ class FlutterController{
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'GET',
                 CURLOPT_HTTPHEADER => array(
-                  'Authorization: Bearer FLWSECK-8213efe87ecda0d70e51856d8179680c-X'
+                  'Authorization: Bearer '
                 ),
               ));
     	}
